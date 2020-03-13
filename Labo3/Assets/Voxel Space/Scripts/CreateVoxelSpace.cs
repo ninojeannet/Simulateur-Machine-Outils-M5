@@ -8,14 +8,19 @@ using UnityEngine;
 public class CreateVoxelSpace : MonoBehaviour
 {
     public GameObject cube;
-    public int size;
+    [Range(1, 100)]
+    public int sizeX;
+    [Range(1, 100)]
+    public int sizeY;
+    [Range(1, 100)]
+    public int sizeZ;
     void Start()
     {
-        for(int x = 0; x < size; x++)
+        for(int x = 0; x < sizeX; x++)
         {
-            for(int y = 0; y < size; y++)
+            for(int y = 0; y < sizeY; y++)
             {
-                for(int z = 0; z < size; z++)
+                for(int z = 0; z < sizeZ; z++)
                 {
                     Vector3 position = cube.transform.position;
                     position.x += x;
