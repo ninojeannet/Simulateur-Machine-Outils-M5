@@ -327,12 +327,12 @@ PrefabInstance:
         type: 3}
       propertyPath: baseTexture
       value: 
-      objectReference: {fileID: 2800000, guid: 55d7dbd79e72720448de1ba24687be7e, type: 3}
+      objectReference: {fileID: 2800000, guid: bdb752474b4670249b4f9ab2a8949a89, type: 3}
     - target: {fileID: 6767594816835187206, guid: f2593a7947aef9849b807cfcd5972e16,
         type: 3}
       propertyPath: workedTexture
       value: 
-      objectReference: {fileID: 2800000, guid: a949bc7ae4f1a83479213ebfad457316, type: 3}
+      objectReference: {fileID: 2800000, guid: 91a3ea6d15033964b8c340a261fa8155, type: 3}
     - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
         type: 3}
       propertyPath: m_LocalPosition.x
