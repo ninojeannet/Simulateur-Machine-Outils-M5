@@ -31,6 +31,11 @@ public class CreateVoxelSpace : MonoBehaviour
 
                     GameObject instance = Instantiate(cube, position, rotation);
                     instance.transform.parent = this.transform;
+                    //genre 
+                    BoxCollider bc= instance.GetComponent<BoxCollider>();
+                    bc.isTrigger = true;
+                    Transform tf = instance.GetComponent<Transform>();
+                    tf.tag = "VoxelTag";
                 }
             }
         }

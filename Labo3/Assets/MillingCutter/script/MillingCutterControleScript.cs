@@ -9,6 +9,8 @@ public class MillingCutterControleScript : MonoBehaviour
     public float speed = 20f;
     public float speedRotator = 100f;
     public bool isDrillMachineStyle = true;
+    public float maxPositionY = 10f;
+    public float minPositionY = -10f;
 
     // Start is called before the first frame update
     void Start() { /*void*/ }
@@ -63,14 +65,14 @@ public class MillingCutterControleScript : MonoBehaviour
         {
             if (Input.GetKey("space"))
             {
-                if (pos.y > -3.0f && pos.y < 6.0f)
+                if (pos.y > minPositionY && pos.y < maxPositionY)
                 {
                     pos.y -= speed * Time.deltaTime;
                 }
             }
             else
             {
-                if (pos.y < 5.0f)
+                if (pos.y < maxPositionY -1)
                 {
                     pos.y += speed * Time.deltaTime;
                 }
@@ -80,14 +82,14 @@ public class MillingCutterControleScript : MonoBehaviour
         {
             if (Input.GetMouseButton(0))
             {
-                if (pos.y > -3.0f && pos.y < 6.0f)
+                if (pos.y > minPositionY && pos.y < maxPositionY)
                 {
                     pos.y -= speed * Time.deltaTime;
                 }
             }
             else if (Input.GetMouseButton(1))
             {
-                if (pos.y < 5.0f)
+                if (pos.y < maxPositionY-1)
                 {
                     pos.y += speed * Time.deltaTime;
                 }

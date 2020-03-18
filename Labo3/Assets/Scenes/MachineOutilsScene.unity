@@ -233,6 +233,8 @@ MonoBehaviour:
   speed: 20
   speedRotator: 100
   isDrillMachineStyle: 0
+  maxPositionY: 100
+  minPositionY: -100
 --- !u!54 &10132949
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -262,7 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: VoxelTag
-  isDestroyOnCollision: 0
+  isDestroyOnCollision: 1
 --- !u!1 &165604056
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +358,100 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165604056}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &296322658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6767594816835187206, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: sizeX
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187206, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: sizeY
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187206, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: sizeZ
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187207, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187208, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_Name
+      value: Voxel Space
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187208, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_TagString
+      value: VoxelTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767594816835187208, guid: f2593a7947aef9849b807cfcd5972e16,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2593a7947aef9849b807cfcd5972e16, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +859,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2123960168
 Transform:
   m_ObjectHideFlags: 0
@@ -790,7 +886,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123960167}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
