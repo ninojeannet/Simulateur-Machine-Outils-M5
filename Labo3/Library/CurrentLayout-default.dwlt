@@ -23,7 +23,11 @@ MonoBehaviour:
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
+<<<<<<< HEAD
   m_Maximized: 0
+=======
+  m_Maximized: 1
+>>>>>>> voxelspace
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -44,8 +48,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1266
     height: 624
+=======
+    width: 1536
+    height: 791
+>>>>>>> voxelspace
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
@@ -109,12 +118,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1266
     height: 574
   m_MinSize: {x: 680, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
   controlID: 6226
+=======
+    width: 1536
+    height: 741
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 1
+  controlID: 102
+>>>>>>> voxelspace
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,12 +152,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1266
     height: 574
   m_MinSize: {x: 680, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 0
   controlID: 6227
+=======
+    width: 1536
+    height: 741
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 0
+  controlID: 103
+>>>>>>> voxelspace
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,12 +186,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 859
     height: 574
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 6178
+=======
+    width: 1190
+    height: 741
+  m_MinSize: {x: 402, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 104
+>>>>>>> voxelspace
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,12 +220,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 859
     height: 303
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 6179
+=======
+    width: 1190
+    height: 457
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
+  vertical: 0
+  controlID: 105
+>>>>>>> voxelspace
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,10 +252,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 201
     height: 303
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    width: 229
+    height: 457
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> voxelspace
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -233,8 +285,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 201
     y: 0
+<<<<<<< HEAD
     width: 658
     height: 303
+=======
+    width: 961
+    height: 457
+>>>>>>> voxelspace
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -259,9 +316,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 303
     width: 859
     height: 271
+=======
+    y: 457
+    width: 1190
+    height: 284
+>>>>>>> voxelspace
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
@@ -287,10 +350,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 859
     y: 0
+<<<<<<< HEAD
     width: 407
     height: 574
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    width: 346
+    height: 741
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> voxelspace
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -318,10 +388,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 202
     y: 19
     width: 656
     height: 282
+=======
+    x: 228.8
+    y: 73.6
+    width: 959
+    height: 436
+>>>>>>> voxelspace
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -329,11 +406,19 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 656, y: 261}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
   m_MaximizeOnPlay: 1
+=======
+  m_TargetSize: {x: 959, y: 415}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_MaximizeOnPlay: 0
+>>>>>>> voxelspace
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -343,10 +428,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -422
     m_HBaseRangeMax: 422
     m_VBaseRangeMin: -178
     m_VBaseRangeMax: 178
+=======
+    m_HBaseRangeMin: -383.6
+    m_HBaseRangeMax: 383.6
+    m_VBaseRangeMin: -166
+    m_VBaseRangeMax: 166
+>>>>>>> voxelspace
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -364,16 +456,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1266
       height: 534
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 633, y: 267}
+=======
+      width: 959
+      height: 415
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 479.5, y: 207.5}
+>>>>>>> voxelspace
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -633
       y: -267
       width: 1266
@@ -381,6 +481,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1899, y: 832.5}
+=======
+      x: -479.5
+      y: -207.5
+      width: 959
+      height: 415
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1198.75, y: 545}
+>>>>>>> voxelspace
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -407,17 +516,30 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 7.3333335
     y: 80
     width: 200
     height: 282
+=======
+    x: 0
+    y: 73.6
+    width: 228
+    height: 436
+>>>>>>> voxelspace
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 70fbffff90330000
+=======
+      m_SelectedIDs: 4af8ffff
+      m_LastClickedID: -1974
+      m_ExpandedIDs: 70fbffff70330000
+>>>>>>> voxelspace
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -462,10 +584,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 208.66667
     y: 80
     width: 656
     height: 282
+=======
+    x: 228.8
+    y: 73.6
+    width: 959
+    height: 436
+>>>>>>> voxelspace
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 64fe1d0c867e72a4f9dc597da44a631f
@@ -529,9 +658,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
+<<<<<<< HEAD
     m_Target: 9.430837
     speed: 2
     m_Value: 9.430837
+=======
+    m_Target: 881.0697
+    speed: 2
+    m_Value: 881.0697
+>>>>>>> voxelspace
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -577,10 +712,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 7.3333335
     y: 383.33334
     width: 858
     height: 250
+=======
+    x: 0
+    y: 530.4
+    width: 1189
+    height: 263
+>>>>>>> voxelspace
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -595,20 +737,30 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Voxel Space/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Voxel Space/Prefabs
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: C:\dev\Infographie\MachineOutil\Simulateur-Machine-Outils-M5\Labo3
+=======
+  m_LastProjectPath: C:\Users\kevin.laipe\Documents\Annee3\Infographie\Simulateur-Machine-Outils-M5\Labo3
+>>>>>>> voxelspace
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: d6330000
     m_LastClickedID: 13270
     m_ExpandedIDs: 00000000d6330000d8330000da330000dc330000de330000e0330000e2330000e4330000e6330000
+=======
+    m_SelectedIDs: bc330000
+    m_LastClickedID: 13244
+    m_ExpandedIDs: 00000000b2330000ba33000000ca9a3b
+>>>>>>> voxelspace
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -636,7 +788,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000d6330000d8330000da330000dc330000de330000e0330000e2330000e4330000e6330000
+=======
+    m_ExpandedIDs: 00000000b2330000
+>>>>>>> voxelspace
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -664,7 +820,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c623000058410000d6320000b26f0000e2c102003a37000042400000b4a10200cc490000c69b00008499000018480000c01f010050690000769500003c38000028d30000a6480000b62201001cfe0000a6d800009ec40000a6c4000018380000805300001e57000076780000e8600000624c0000dc850000de480000ae36000058d90000b44b01001e73010000000000
+=======
+    m_ExpandedInstanceIDs: c623000058410000d6320000b26f0000e2c102003a37000042400000b4a10200cc490000c69b00008499000018480000c01f010050690000769500003c38000028d30000a6480000b62201001cfe0000a6d800009ec40000a6c4000018380000805300001e57000076780000e8600000624c0000dc850000de480000ae3600000000000058d90000b44b01001e730100
+>>>>>>> voxelspace
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -739,10 +899,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 866.6667
     y: 80
     width: 405
     height: 553
+=======
+    x: 1190.4
+    y: 73.6
+    width: 345
+    height: 720
+>>>>>>> voxelspace
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
