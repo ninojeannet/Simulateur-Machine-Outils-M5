@@ -24,11 +24,11 @@ public class MillingCutterControleScript : MonoBehaviour
     void rotationManager()
     {
         //speedRotation
-        if (Input.GetKey("1"))
+        if (Input.GetKey("left"))
         {
             speedRotator += speedRotator * Time.deltaTime;
         }
-        else if (Input.GetKey("2"))
+        else if (Input.GetKey("right"))
         {
             speedRotator -= speedRotator * Time.deltaTime;
         }
@@ -80,14 +80,14 @@ public class MillingCutterControleScript : MonoBehaviour
         }
         else
         {
-            if (Input.GetMouseButton(0))
+            if (Input.GetKey("down"))
             {
                 if (pos.y > minPositionY && pos.y < maxPositionY)
                 {
                     pos.y -= speed * Time.deltaTime;
                 }
             }
-            else if (Input.GetMouseButton(1))
+            else if (Input.GetKey("up"))
             {
                 if (pos.y < maxPositionY-1)
                 {

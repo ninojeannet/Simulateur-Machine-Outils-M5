@@ -27,7 +27,7 @@ public class MillingCutterColliderDetectionScript : MonoBehaviour
     {
         if (targetTag.Equals(other.gameObject.tag))
         {
-            Debug.Log("OnTriggerStay dans Voxels");
+            //Debug.Log("OnTriggerStay dans Voxels");
             render = other.gameObject.GetComponent<Renderer>();
             render.material.color = Color.red;
         }
@@ -54,7 +54,7 @@ public class MillingCutterColliderDetectionScript : MonoBehaviour
     {
         if (targetTag.Equals(other.gameObject.tag))
         {
-            Debug.Log("OnTriggerStay dans Voxels");
+            //Debug.Log("OnTriggerStay dans Voxels");
             render = other.gameObject.GetComponent<Renderer>();
             render.material.color = Color.red;
             if (isDestroyOnCollision)
