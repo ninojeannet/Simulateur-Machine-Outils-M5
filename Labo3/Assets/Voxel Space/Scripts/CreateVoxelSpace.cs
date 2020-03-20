@@ -35,12 +35,12 @@ public class CreateVoxelSpace : MonoBehaviour
 
                     GameObject instance = Instantiate(cube, position, rotation);
                     instance.transform.parent = this.transform;
-
+                    /*
                     foreach(Transform child in instance.transform)
                     {
                         child.gameObject.GetComponent<Renderer>().material.mainTexture = workedTexture;
                     }
-
+                    */
                     if(x==0)
                     {                    
                         GameObject plane = instance.transform.Find("Left").gameObject;
@@ -71,7 +71,7 @@ public class CreateVoxelSpace : MonoBehaviour
                         GameObject plane = instance.transform.Find("Back").gameObject;
                         plane.GetComponent<Renderer>().material.mainTexture = baseTexture;
                     }
-
+                    
                 }
             }
         }
