@@ -44,6 +44,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 5414428328622937982, guid: 1d63e95dc80d2e249bc7ed536913dc91, type: 3}
-  sizeX: 5
-  sizeY: 5
-  sizeZ: 5
+  size: 5
