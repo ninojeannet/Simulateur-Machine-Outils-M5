@@ -18,9 +18,17 @@ public class CreateVoxelSpace : MonoBehaviour
     public Texture baseTexture;
     public Texture workedTexture;
 
+
+
     void Start()
     {
-        for(int x = 0; x < sizeX; x++)
+
+        GameObject go1 = GameObject.Find("SimulatorSettings");
+        scriptSimulatorSettings ss1 = go1.GetComponent<scriptSimulatorSettings>();
+
+      
+
+        for (int x = 0; x < sizeX; x++)
         {
             for(int y = 0; y < sizeY; y++)
             {
