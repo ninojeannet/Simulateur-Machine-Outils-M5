@@ -111,10 +111,17 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 588
+<<<<<<< HEAD
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
   controlID: 109
+=======
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 1
+  controlID: 56
+>>>>>>> davide-UI
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +143,17 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 588
+<<<<<<< HEAD
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 110
+=======
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 57
+>>>>>>> davide-UI
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,12 +173,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1004
     height: 588
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 38
+=======
+    width: 992
+    height: 588
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 58
+>>>>>>> davide-UI
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,12 +207,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1004
     height: 317
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
   controlID: 39
+=======
+    width: 992
+    height: 317
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 59
+>>>>>>> davide-UI
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,10 +239,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 203
     height: 317
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 335
+    height: 317
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> davide-UI
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -231,9 +270,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 203
     y: 0
     width: 801
+=======
+    x: 335
+    y: 0
+    width: 657
+>>>>>>> davide-UI
     height: 317
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -260,7 +305,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 317
+<<<<<<< HEAD
     width: 1004
+=======
+    width: 992
+>>>>>>> davide-UI
     height: 271
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -285,9 +334,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1004
     y: 0
     width: 276
+=======
+    x: 992
+    y: 0
+    width: 288
+>>>>>>> davide-UI
     height: 588
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -317,9 +372,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 203.33334
     y: 72.66667
     width: 799
+=======
+    x: 335.33334
+    y: 72.66667
+    width: 655
+>>>>>>> davide-UI
     height: 296
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
@@ -328,7 +389,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 799, y: 275}
+=======
+  m_TargetSize: {x: 655, y: 275}
+>>>>>>> davide-UI
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -342,8 +407,13 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -266.33334
     m_HBaseRangeMax: 266.33334
+=======
+    m_HBaseRangeMin: -218.33334
+    m_HBaseRangeMax: 218.33334
+>>>>>>> davide-UI
     m_VBaseRangeMin: -91.66667
     m_VBaseRangeMax: 91.66667
     m_HAllowExceedBaseRangeMin: 1
@@ -363,16 +433,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 799
       height: 275
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 399.5, y: 137.5}
+=======
+      width: 655
+      height: 275
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 327.5, y: 137.5}
+>>>>>>> davide-UI
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -399.5
       y: -137.5
       width: 799
@@ -380,6 +458,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1198.5, y: 444}
+=======
+      x: -327.5
+      y: -137.5
+      width: 655
+      height: 275
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 982.5, y: 444}
+>>>>>>> davide-UI
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -408,15 +495,26 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.66667
+<<<<<<< HEAD
     width: 202
+=======
+    width: 334
+>>>>>>> davide-UI
     height: 296
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: dae7ffffbce8ffff
+=======
+      scrollPos: {x: 0, y: 77}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ec42f5ff4e46f5ff9a4ef5ffa84ff5ff4a52f5ffbc53f5ffc854f5fff663f5ff9eb9fcffaeb9fcffc0b9fcffb0befcffb6befcffbabefcffe0bffcff46e3feff94e3feff1cf9ffff70fbfffff4ffffff763300002e5000005a51000074540000a85e0000ea5e00002a5f00002e5f0000
+>>>>>>> davide-UI
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -461,9 +559,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 203.33334
     y: 72.66667
     width: 799
+=======
+    x: 335.33334
+    y: 72.66667
+    width: 655
+>>>>>>> davide-UI
     height: 296
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -476,9 +580,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
+=======
+    m_Target: {x: 324, y: 147, z: 0}
+    speed: 2
+    m_Value: {x: 324, y: 147, z: 0}
+>>>>>>> davide-UI
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -524,13 +634,19 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0.001190373, y: -0.00090259, z: -0.0000009769163, w: -1.0000007}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0.0011903709, y: -0.00090258836, z: -0.0000009769146, w: -0.9999989}
   m_Size:
+<<<<<<< HEAD
     m_Target: 1850.7434
     speed: 2
     m_Value: 1850.7434
+=======
+    m_Target: 472.3076
+    speed: 2
+    m_Value: 472.3076
+>>>>>>> davide-UI
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -578,7 +694,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 390
+<<<<<<< HEAD
     width: 1003
+=======
+    width: 991
+>>>>>>> davide-UI
     height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -594,6 +714,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Examples
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -608,6 +729,22 @@ MonoBehaviour:
     m_SelectedIDs: 4c400000
     m_LastClickedID: 16460
     m_ExpandedIDs: 00000000424000004c400000
+=======
+    - Assets/GuiMenu
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/GuiMenu
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\dev\Infographie\MachineOutil\Simulateur-Machine-Outils-M5\Simulateur-Machine-Outils-M5\Labo3
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 68340000
+    m_LastClickedID: 13416
+    m_ExpandedIDs: 0000000066340000683400006e3400007a34000094340000ffffff7f
+>>>>>>> davide-UI
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -635,7 +772,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000042400000
+=======
+    m_ExpandedIDs: 000000006634000068340000
+>>>>>>> davide-UI
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -714,7 +855,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 390
+<<<<<<< HEAD
     width: 1003
+=======
+    width: 991
+>>>>>>> davide-UI
     height: 250
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
@@ -738,9 +883,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1004
     y: 72.66667
     width: 275
+=======
+    x: 992
+    y: 72.66667
+    width: 287
+>>>>>>> davide-UI
     height: 567
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -749,7 +900,11 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
+<<<<<<< HEAD
     m_CachedPref: 282
+=======
+    m_CachedPref: 151
+>>>>>>> davide-UI
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
