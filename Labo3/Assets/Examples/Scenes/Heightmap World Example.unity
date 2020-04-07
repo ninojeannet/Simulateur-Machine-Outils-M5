@@ -369,7 +369,6 @@ GameObject:
   m_Component:
   - component: {fileID: 597380020}
   - component: {fileID: 597380024}
-  - component: {fileID: 597380023}
   - component: {fileID: 597380022}
   - component: {fileID: 597380021}
   m_Layer: 0
@@ -427,14 +426,6 @@ MonoBehaviour:
   minimumFieldOfView: 2
   maximumFieldOfView: 170
   zoomSpeed: 3
---- !u!81 &597380023
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597380019}
-  m_Enabled: 1
 --- !u!20 &597380024
 Camera:
   m_ObjectHideFlags: 0

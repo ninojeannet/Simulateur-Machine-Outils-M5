@@ -1,13 +1,13 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Examples/Scenes/Heightmap World Example.unity
-=======
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
 - path: Assets/Scenes/StartScene.unity
->>>>>>> davide-UI
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/MachineOutilsScene.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/Scenes/SimulatorScene.unity
-  isLoaded: 1
-  isActive: 0
   isSubScene: 0
