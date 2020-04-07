@@ -39,21 +39,21 @@ public class MillingCutterControleScript : MonoBehaviour
         Vector3 pos = transform.position;
 
         //back/forward
-        if (Input.GetKey("w"))
+        if (Input.GetKey("i"))
         {
             pos.z += speed * Time.deltaTime;
         }
-        else if (Input.GetKey("s"))
+        else if (Input.GetKey("k"))
         {
             pos.z -= speed * Time.deltaTime;
         }
 
         //left/right
-        if (Input.GetKey("d"))
+        if (Input.GetKey("j"))
         {
             pos.x += speed * Time.deltaTime;
         }
-        else if (Input.GetKey("a"))
+        else if (Input.GetKey("l"))
         {
             pos.x -= speed * Time.deltaTime;
         }
