@@ -22,9 +22,23 @@ namespace Simulation
 
         private void Awake()
         {
-            
-            int heightMapSize = CubeSize+2; // +2 because the heighmap needs a "border" of one pixel empty to show the walls
-            bool[,] heightmapArray = new bool[heightMapSize,heightMapSize];
+            int heightMapSize = CubeSize + 2; // +2 because the heighmap needs a "border" of one pixel empty to show the walls
+            int amplitude = CubeSize;
+
+            if (PlayerPrefs.HasKey("cubeSize"))
+            {
+                heightMapSize = PlayerPrefs.GetInt("cubeSize");
+                heightMapSize += 2;
+                amplitude = PlayerPrefs.GetInt("cubeSize");
+                //Debug.Log("Data loaded successfully");
+            }
+            else
+            {
+                Debug.Log("Data was not loaded successfully, default values are used");
+            }
+
+
+           bool[,] heightmapArray = new bool[heightMapSize, heightMapSize];
             //Generate the 2D array representing the heighmap
             // True => material
             // False => nothing
@@ -32,14 +46,14 @@ namespace Simulation
             {
                 for (int y = 0; y < heightMapSize; y++)
                 {
-                    if(x == 0 || y == 0 || x == heightMapSize-1 || y == heightMapSize-1)
-                        heightmapArray[x,y] = false;
+                    if (x == 0 || y == 0 || x == heightMapSize - 1 || y == heightMapSize - 1)
+                        heightmapArray[x, y] = false;
                     else
-                        heightmapArray[x,y] = true;
+                        heightmapArray[x, y] = true;
                 }
             }
-            int amplitude = CubeSize;
-            simulationSettings = new SimulationSettings(heightmapArray, heightMapSize,amplitude);
+
+            simulationSettings = new SimulationSettings(heightmapArray, heightMapSize, amplitude);            
         }
 
         protected override void Start()

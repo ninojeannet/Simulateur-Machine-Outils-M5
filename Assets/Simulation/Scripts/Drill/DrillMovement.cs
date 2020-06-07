@@ -9,18 +9,12 @@ namespace Simulation
         /// </summary>
         [Header("Movement")]
         [SerializeField] private float movementSpeed = 10f;
+        [SerializeField] public float speedRotator = 1f;
 
         private void Update()
         {
-            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
-            {
-                Move();
-            }
-            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.LeftShift))
-            {
-                Move();
-            }
-
+            Move();
+            Rotation();
         } 
 
         /// <summary>
@@ -28,20 +22,63 @@ namespace Simulation
         /// </summary>
         private void Move()
         {
-            Vector3 movement = Vector3.zero;
-            movement.x += Input.GetAxisRaw("Horizontal");
-            if (Input.GetKey(KeyCode.Space))
-            {
-                movement.y++;
-            }
-            else if (Input.GetKey(KeyCode.LeftShift))
-            {
-                movement.y--;
-            }
-            
-            movement.z += Input.GetAxisRaw("Vertical");
+            Vector3 pos = transform.position;
 
-            transform.Translate(movementSpeed * Time.deltaTime * movement.normalized, Space.Self);
+            //back/forward
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                pos.z += movementSpeed * Time.deltaTime;
+            }
+            else if (Input.GetKey(KeyCode.DownArrow))
+            {
+                pos.z -= movementSpeed * Time.deltaTime;
+            }
+
+            //left/right
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                pos.x += movementSpeed * Time.deltaTime;
+            }
+            else if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                pos.x -= movementSpeed * Time.deltaTime;
+            }
+
+            //up/down
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                pos.y += movementSpeed * Time.deltaTime;
+            }
+            else if (Input.GetKey(KeyCode.Space))
+            {
+                pos.y -= movementSpeed * Time.deltaTime;
+            }
+
+            transform.position = pos;
+        }
+
+
+        /// <summary>
+        /// Gets the user input from the keyboard and uses that to rotate the drill
+        /// </summary>
+        void Rotation()
+        {
+            //speedRotation
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                if (speedRotator < 20)
+                    speedRotator += 1f;
+                else
+                    speedRotator = 20f;
+            }
+            else if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (speedRotator > 1)
+                    speedRotator -= 1f;
+                else
+                    speedRotator = 1f;
+            }
+            transform.Rotate(transform.up, speedRotator);
         }
 
     }

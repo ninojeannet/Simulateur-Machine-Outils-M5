@@ -50,11 +50,9 @@ namespace Simulation
         public SimulationSettings( bool[,] heightmapArray,int size, int amplitude)
         {
             Amplitude = amplitude;
-
-            this.heightmapArray = heightmapArray;
             Width = size;
             Height = size;
-
+            this.heightmapArray = heightmapArray;
             heightmapData = new NativeArray<float>(Width * Height, Allocator.Persistent);
             SetHeightmap(heightmapArray);
         }
