@@ -7,7 +7,7 @@ namespace Simulation
     /// <summary>
     /// The terrain deformer which modifies the terrain
     /// </summary>
-    public class MaterialDeformerConvexCorrection : MonoBehaviour
+    public class MaterialDeformerConvexCorrection2 : MonoBehaviour
     {
         /// <summary>
         /// How fast the terrain is deformed
@@ -65,7 +65,7 @@ namespace Simulation
 
             for (int x = -intRange * intScaleX; x <= intRange * intScaleX; x++)
             {
-                for (int y = 0; y < intRange * intScaleY; y++)
+                for (int y = -intRange * intScaleY; y <= 0; y++)
                 {
                     for (int z = -intRange * intScaleZ; z <= intRange * intScaleZ; z++)
                     {
@@ -92,7 +92,7 @@ namespace Simulation
             }
         }
 
- 
+
         /// <summary>
         /// Gets the user input from the keyboard and uses that to rotate the drill
         /// </summary>

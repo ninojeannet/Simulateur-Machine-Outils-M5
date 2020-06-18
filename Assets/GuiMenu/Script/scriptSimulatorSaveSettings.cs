@@ -52,6 +52,10 @@ public class scriptSimulatorSaveSettings : MonoBehaviour
         {
             PlayerPrefs.SetString("typeDrill", "DrillTform");
         }
+        if (val == 3)
+        {
+            PlayerPrefs.SetString("typeDrill", "DrillDefaultV2");
+        }
     }
 
     public void incCubeSize()

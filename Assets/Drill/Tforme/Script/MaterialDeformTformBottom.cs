@@ -54,9 +54,9 @@ namespace Simulation
         private void EditTerrainCube(Vector3 point, float deformSpeed, float range)
         {
             Transform transformDrill = GetComponent<Transform>();
-            int intScaleX = Mathf.RoundToInt(transformDrill.localScale.x / 2);
+            int intScaleX = Mathf.RoundToInt(transformDrill.localScale.x/2);
             int intScaleY = Mathf.RoundToInt(transformDrill.localScale.y);
-            int intScaleZ = Mathf.RoundToInt(transformDrill.localScale.z);
+            int intScaleZ = Mathf.RoundToInt(transformDrill.localScale.z/2);
 
             int buildModifier = -1;
 
@@ -70,7 +70,7 @@ namespace Simulation
             {
                 for (int y = -intRange * intScaleY; y <= intRange * intScaleY; y++)
                 {
-                    for (int z = -intRange; z <= intRange; z++)
+                    for (int z = -intRange * intScaleZ; z <= intRange * intScaleZ; z++)
                     {
                         int offsetX = hitX - x;
                         int offsetY = hitY - y;

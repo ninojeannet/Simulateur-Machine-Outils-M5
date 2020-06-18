@@ -8,8 +8,13 @@ namespace Simulation
         /// The movement speed of the drill
         /// </summary>
         [Header("Movement")]
-        [SerializeField] private float movementSpeed = 10f;
-        [SerializeField] public float speedRotator = 1f;
+        [SerializeField] public float movementSpeed = 10f;
+        private float speedRotator = 1f;
+
+        private void Awake()
+        {
+            speedRotator = 1f;
+        }
 
         private void Update()
         {
@@ -66,14 +71,14 @@ namespace Simulation
             //speedRotation
             if (Input.GetKeyDown(KeyCode.Q))
             {
-                if (speedRotator < 20)
+                if (speedRotator < 20f)
                     speedRotator += 1f;
                 else
                     speedRotator = 20f;
             }
             else if (Input.GetKeyDown(KeyCode.E))
             {
-                if (speedRotator > 1)
+                if (speedRotator > 1f)
                     speedRotator -= 1f;
                 else
                     speedRotator = 1f;

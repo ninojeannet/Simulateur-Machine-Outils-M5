@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7359789008897253254}
   - component: {fileID: 7359789008897253258}
   - component: {fileID: 7359789008897253253}
-  - component: {fileID: 7359789008897253252}
   m_Layer: 0
   m_Name: millingCutterTree
   m_TagString: Untagged
@@ -59,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9bc677f1dd5f96f47b6517365a73fc9e, type: 2}
+  - {fileID: 2100000, guid: deb9388a59e0cae4a93cb7cc9d7491ce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,20 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &7359789008897253252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7359789008897253249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7da5d4990a2124b408e8ec9a8294fe91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 10
-  speedRotator: 100
 --- !u!1 &7359789009631521961
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,7 +90,6 @@ GameObject:
   - component: {fileID: 7359789009631521966}
   - component: {fileID: 7359789009631521939}
   - component: {fileID: 7359789009631521938}
-  - component: {fileID: 7359789009631521965}
   - component: {fileID: 7359789009631521967}
   - component: {fileID: 7359789009631521964}
   m_Layer: 0
@@ -155,7 +139,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c503dfb512b04145980bbafbe97d27e, type: 2}
+  - {fileID: 2100000, guid: deb9388a59e0cae4a93cb7cc9d7491ce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -176,20 +160,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &7359789009631521965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7359789009631521961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7da5d4990a2124b408e8ec9a8294fe91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 10
-  speedRotator: 100
 --- !u!65 &7359789009631521967
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -215,8 +185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dc1efc15e3e9bf4eaab4ce91c53089e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deformSpeed: 1000
-  deformRange: 0.1
   world: {fileID: 0}
 --- !u!1 &7359789009742541523
 GameObject:
@@ -227,6 +195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7359789009742541520}
+  - component: {fileID: 485114746367104770}
   m_Layer: 0
   m_Name: DrillTform
   m_TagString: Untagged
@@ -251,6 +220,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &485114746367104770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7359789009742541523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da5d4990a2124b408e8ec9a8294fe91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 10
+  speedRotator: 20
 --- !u!1 &7359789010090895400
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,7 +245,6 @@ GameObject:
   - component: {fileID: 7359789010090895401}
   - component: {fileID: 7359789010090895405}
   - component: {fileID: 7359789010090895404}
-  - component: {fileID: 7359789010090895407}
   - component: {fileID: 7359789010090895406}
   - component: {fileID: 7359789010090895378}
   m_Layer: 0
@@ -312,7 +294,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c503dfb512b04145980bbafbe97d27e, type: 2}
+  - {fileID: 2100000, guid: deb9388a59e0cae4a93cb7cc9d7491ce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -333,20 +315,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &7359789010090895407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7359789010090895400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7da5d4990a2124b408e8ec9a8294fe91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 10
-  speedRotator: 100
 --- !u!114 &7359789010090895406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,8 +327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc5565ebdacc3ca4e947eb6946bbc97f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deformSpeed: 1000
-  deformRange: 0.1
   world: {fileID: 0}
 --- !u!65 &7359789010090895378
 BoxCollider:
