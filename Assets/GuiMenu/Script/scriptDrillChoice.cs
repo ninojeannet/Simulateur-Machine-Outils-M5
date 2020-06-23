@@ -12,9 +12,7 @@ public class scriptDrillChoice : MonoBehaviour
         int i = 0;
 
         foreach (Transform child in transform)
-        {
             allChildren[i++] = child.gameObject;
-        }
 
         foreach (GameObject child in allChildren)
         {

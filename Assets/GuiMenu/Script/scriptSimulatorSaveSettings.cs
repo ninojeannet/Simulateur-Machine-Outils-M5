@@ -7,7 +7,7 @@ using TMPro;
 public class scriptSimulatorSaveSettings : MonoBehaviour
 {
     int cubeSize = 128;
-    int chunkSize = 16;
+    int chunkSize = 32;
     int maxCubeSize = 256; 
     int minCubeSize = 128;
     int maxChunkSize = 32;
@@ -55,6 +55,10 @@ public class scriptSimulatorSaveSettings : MonoBehaviour
         if (val == 3)
         {
             PlayerPrefs.SetString("typeDrill", "DrillDefaultV2");
+        }
+        if (val == 4)
+        {
+            PlayerPrefs.SetString("typeDrill", "DrillDefaultV3");
         }
     }
 

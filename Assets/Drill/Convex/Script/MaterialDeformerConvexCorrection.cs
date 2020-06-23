@@ -24,6 +24,7 @@ namespace Simulation
         /// </summary>
         [Header("Player Settings")]
         [SerializeField] private World world;
+      
 
         private void Update()
         {
@@ -51,9 +52,9 @@ namespace Simulation
         private void EditTerrainHalfSphere(Vector3 point, float deformSpeed, float range)
         {
             Transform transformDrill = GetComponent<Transform>();
-            int intScaleX = Mathf.RoundToInt(transformDrill.localScale.x);
-            int intScaleY = Mathf.RoundToInt(transformDrill.localScale.y);
-            int intScaleZ = Mathf.RoundToInt(transformDrill.localScale.z);
+            int intScaleX = Mathf.RoundToInt(transformDrill.localScale.x/2);
+            int intScaleY = Mathf.RoundToInt(transformDrill.localScale.y*2);
+            int intScaleZ = Mathf.RoundToInt(transformDrill.localScale.z/2);
 
             int buildModifier = -1;
 

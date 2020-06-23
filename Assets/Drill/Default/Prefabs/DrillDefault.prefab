@@ -9,10 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 774907741685830281}
-  - component: {fileID: 774907741685830282}
   - component: {fileID: 774907741685830280}
   - component: {fileID: 774907741685830283}
-  - component: {fileID: 774907741685830290}
+  - component: {fileID: 8485859523471902512}
   m_Layer: 0
   m_Name: millingCutterDefault
   m_TagString: Untagged
@@ -34,20 +33,6 @@ Transform:
   m_Father: {fileID: 4394969087699706818}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &774907741685830282
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774907741685830293}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 3
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &774907741685830280
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -95,7 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &774907741685830290
+--- !u!114 &8485859523471902512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,4 +138,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 10
-  speedRotator: 20
